@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__Group_195" width="203.382" height="83.658" data-name="Group 195" viewBox="0 0 203.382 83.658">
+    <defs>
+        <filter id="prefix__Ellipse_34" width="18" height="18" x="17.431" y="33.699" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur result="blur" stdDeviation="2"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="prefix__Ellipse_35" width="12" height="12" x="182.431" y="30.699" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur result="blur-2" stdDeviation="1"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .prefix__cls-3{fill:#fff}.prefix__cls-4{fill:#2a5aea;font-size:6px;font-family:SFProDisplay-Medium,SF Pro Display;font-weight:500}
+        </style>
+    </defs>
+    <path id="prefix__Union_6" d="M92.137 64.485c-4.265-2.186-5.1-.558-6.6 1.069-1.3 1.415-3.1 2.831-8.073 1.74-10.7-2.347-14.912-8.365-28.128-12.2-6.8-1.974-9.89-1.852-12.965-1.729A32.881 32.881 0 0 1 24.6 51.958C14.254 49.124 3.959 43.743.907 42.08H0s.156-.089.449-.251C.156 41.667 0 41.578 0 41.578h.907C3.959 39.916 14.254 34.535 24.6 31.7a32.884 32.884 0 0 1 11.772-1.409c3.075.122 6.161.245 12.965-1.729 13.217-3.834 17.428-9.851 28.128-12.2 4.976-1.092 6.772.324 8.073 1.739 1.495 1.628 2.334 3.256 6.6 1.07C100.11 15.087 98.772-.6 109.358.018s13.069 17.945 25.122 21.637c6.615 2.025 9.44-.537 12.554-3.1 2.56-2.107 5.316-4.213 10.535-3.77 11.566.981 11.722 10.4 23.176 10.793s22.637-9.214 22.637-9.214v50.93s-11.182-9.608-22.636-9.214-11.61 9.812-23.176 10.793c-5.219.442-7.975-1.665-10.535-3.771-3.114-2.562-5.939-5.125-12.554-3.1-12.054 3.698-14.537 21.018-25.123 21.638-.2.012-.4.018-.6.018-9.937 0-8.802-15.165-16.621-19.173z" data-name="Union 6" style="fill:#e8f2ff;opacity:.672"/>
+    <path id="prefix__Path_91" d="M6400.242 2439.157s2.247-10.945 12.658-12.276 20.1 3.833 20.1 3.833 8.75 1.1 18.466-17.724 14.421 5.525 19.018 7.367 9.617-8.172 19.6-3.873 9.579 21.571 20.343 21.069 6.827-2.871 16.609-1.625 15.863 24.546 21.15 32.927 14.393-36.573 14.393-36.573" data-name="Path 91" transform="translate(-6374.487 -2396.193)" style="fill:none;stroke:#2c5ff6;stroke-width:3px"/>
+    <g>
+        <circle id="prefix__Ellipse_34-2" cx="3" cy="3" r="3" class="prefix__cls-3" data-name="Ellipse 34" transform="translate(23.43 38.7)"/>
+    </g>
+    <g>
+        <circle id="prefix__Ellipse_35-2" cx="3" cy="3" r="3" class="prefix__cls-3" data-name="Ellipse 35" transform="translate(185.43 32.7)"/>
+    </g>
+    <text id="prefix___2018" class="prefix__cls-4" data-name="2018" transform="translate(18.431 52.699)">
+        <tspan x="0" y="0">2018</tspan>
+    </text>
+    <text id="prefix___2020" class="prefix__cls-4" data-name="2020" transform="translate(180.431 29.699)">
+        <tspan x="0" y="0">2020</tspan>
+    </text>
+</svg>
