@@ -1,0 +1,131 @@
+  <div class="container-fluid web_view">
+  <input id="myInput" type="text" placeholder="Search" class="search">
+
+ <div class="clearfix"></div>
+  <hr>
+    <table> 
+      <tr>
+        <th style="border-radius: 5px 0 0 5px;">Name</th>
+        <th>Phone Number</th>
+        <th>Email ID</th>
+        <th>Age</th>
+        <th style="border-radius: 0px 5px 5px 0px;">Last Appointment</th>
+      </tr>
+    </table> 
+    <table id="myTable" class ="gfg"> 
+      <tr data-toggle="modal" data-target="#myModal1">
+        <td class="geeks">Aishwaraya rajesh</td>      
+        <td>0944366810</td>
+        <td>coleadam@gmail.com</td>
+        <td>26</td>
+        <td>Sep 11,2019, <span>11:30pm TO 12:00</span></td>      
+      </tr>
+      <tr>
+        <td class="geeks">Raghu Ram</td>      
+        <td>9855658455</td>
+        <td>coleadam@gmail.com</td>
+        <td>26</td>
+        <td>Sep 11,2019, <span>11:30pm TO 12:00</span></td>      
+      </tr>
+      <tr>
+        <td class="geeks">Ramakrishna</td>      
+        <td>6584789256</td>
+        <td>coleadam@gmail.com</td>
+        <td>26</td>
+        <td>Sep 11,2019, <span>11:30pm TO 12:00</span></td>      
+      </tr>
+      <tr>
+        <td class="geeks">Sahithi Netadibilli</td>      
+        <td>956823655</td>
+        <td>coleadam@gmail.com</td>
+        <td>26</td>
+        <td>Sep 11,2019, <span>11:30pm TO 12:00</span></td>      
+      </tr>
+      <tr>
+        <td class="geeks">Sailaja Naidu</td>      
+        <td>9584551355</td>
+        <td>coleadam@gmail.com</td>
+        <td>26</td>
+        <td>Sep 11,2019, <span>11:30pm TO 12:00</span></td>      
+      </tr>
+      <tr>
+        <td class="geeks">Santhosh</td>      
+        <td>9887623458</td>
+        <td>coleadam@gmail.com</td>
+        <td>26</td>
+        <td>Sep 11,2019, <span>11:30pm TO 12:00</span></td>      
+      </tr>
+    </table> 
+  </div>
+
+  <div class="mobile_view" style="display: none;">
+    <app-mobile></app-mobile>
+  </div>
+
+
+
+  <!-- Modal Popup -->
+  <div class="modal right fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="../../assets/close-icon.svg"></span></button>
+					<h4 class="modal-title" id="myModalLabel1">Patient Details</h4>
+				</div>
+
+				<div class="modal-body">
+					<div class="user_icon">
+						<img src="../../assets/user-icon.jpg">
+						<div class="user_name">
+							<h4>Adam Cole</h4>
+							<p>69 Years, Female</p>
+						</div>
+					</div>
+					<table class="personal_details">
+						<tr>
+							<td><span>Phone Number: </span><br>+1 123456</td>
+							<td><span>Email ID: </span><br>coleadam@gmail.com</td>
+						</tr>
+						<tr>
+							<td><span>Height (in Inches): </span><br>5"8"</td>
+							<td><span>Weight (in kgs): </span><br>62 kg</td>
+						</tr>
+						<tr>
+							<td><span>Blood Group: </span><br>B +ve</td>
+							<td><span>Diabates Score: </span><br>3/10</td>
+						</tr>
+					</table>
+					<div class="diabate_score">
+						<h4>Diabates Score:</h4>
+							<table class="diabate">
+								<!-- <h6>Diabates Score:</h6> -->
+								<tr>
+									<td>Osteoporosis</td>
+									<td>Ongoing Treatment</td>
+								</tr>
+								<tr>
+									<td>Heart Defect</td>
+									<td>Incurable</td>
+								</tr>
+							</table>
+					</div>
+					<div class="address">
+						<small>Address</small>
+						<p>957,21ST,Stanford,CT,USA</p>
+          </div>
+          <div class="graph" style="display: none;">
+            <ul>
+                <li>Overall Health Curve</li>
+                <li>Average</li>
+                <li><span></span>Patient</li>
+            </ul>
+            <img src="../../../assets/graph-static.svg">
+        </div>
+				</div>
+
+			</div><!-- modal-content -->
+		</div><!-- modal-dialog -->
+	</div>
+
+  

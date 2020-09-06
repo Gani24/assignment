@@ -1,0 +1,88 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+body {
+    background-color: #f9f9f9;
+}
+.modal-backdrop {
+	opacity: 0 !important;
+}
+@media only screen and (max-width: 768px) {
+    .graph {
+        display: block !important;
+        color: #555555;
+    }
+    .graph ul li {
+        line-height: 18px !important;
+    font-size: 12px;
+    }
+    .graph img {
+        margin-left: 24px !important;
+    width: 39%;
+    }
+    .graph ul li span {
+        width: 10px !important;
+    height: 10px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .navbar-header {
+        display: none;
+    }
+    .navbar-right {
+        display: none;
+    }
+    .nav-tabs {
+        width: 100%;
+    }
+    .mobile_view {
+        display: block !important;
+    }
+    .web_view {
+        display: none;
+    }
+    .personal_details td:nth-child(1) {
+        width: 50% !important;
+    }
+    .close {
+        float: left;
+    }
+    .personal_details tr td {
+        line-height: 28px !important;
+    }
+    .head_nav {
+        width: 100%;
+    }
+    /* .nav-tabs {
+        margin-right: 77px;
+    } */
+    .nav-tabs>li {
+        padding: 0 9% !important;
+    }
+}
+@media only screen and (max-width: 417px) {
+    .nav-tabs>li {
+        padding: 0 8% !important;
+    }
+    .graph img {
+        margin-left: 35px !important;
+    width: 44%;
+    }
+}
+@media only screen and (max-width:375px) {
+    .nav-tabs>li {
+        padding: 0 7% !important;
+    }
+    .graph img {
+        margin-left: 17px !important;
+    width: 44%;
+    }
+}
+@media only screen and (max-width:320px) {
+    .nav-tabs>li {
+        padding: 0 3%;
+    }
+    .graph img {
+        margin-left: 17px !important;
+    width: 44%;
+    }
+}
