@@ -1,3 +1,10 @@
+  .web_view {
+    margin-top: 80px;
+  }
+  .web_view h3 {
+    color: #555;
+    text-transform: uppercase;
+  }
   table { 
     /* border-collapse: collapse;  */
     width: 100%;
@@ -21,10 +28,13 @@ th, td {
 } 
 tr td:nth-child(5) span {
   color:#adadad;
-  font-size: 12px;
+  /* font-size: 12px; */
 }
 tr td:nth-child(3) {
   color: #3f6aec;
+  /* text-decoration: underline; */
+}
+tr:hover td:nth-child(3) {
   text-decoration: underline;
 }
 .gfg { 
@@ -41,6 +51,9 @@ tr td:nth-child(3) {
     width: 100%;
     cursor: pointer;
 }
+.gfg tr:hover {
+  box-shadow: 5px 2px 5px #dedede;
+}
 .search {
   padding: 7px 10px;
   width: 35%;
@@ -49,6 +62,7 @@ tr td:nth-child(3) {
   background-color: #dedddd;
   border: none;
   border-radius: 4px;
+  color: #555;
 }
 hr {
   margin-top: 10px !important;
@@ -63,7 +77,7 @@ hr {
 .modal.right .modal-dialog {
   position: fixed;
   margin: auto;
-  width: 320px;
+  width: 350px;
   height: 100%;
   -webkit-transform: translate3d(0%, 0, 0);
       -ms-transform: translate3d(0%, 0, 0);
@@ -131,11 +145,14 @@ width: 100%;
 
 .personal_details, .personal_details td, .personal_details th {
 border: 1px solid #cccccc;
+border-left: none;
+    border-right: none;
 }
 
 .personal_details td:nth-child(1){
 width: 92%;
 padding: 10px 15px;
+border-right: 1px solid #ccc;
 }
 .personal_details td:nth-child(2) {
 width: 100%;
@@ -148,6 +165,9 @@ font-size: 12px;
 .diabate tr td {
 padding: 6px 15px;
 }
+.diabate tr:nth-child(2) td {
+  padding: 5px 15px 18px 15px;
+}
 .diabate tr:nth-child(1) td:nth-child(2) {
 font-size: 12px;
 color: green;
@@ -159,7 +179,7 @@ color: maroon;
 line-height: 10px;
 }
 .diabate_score h4 {
-font-size: 14px;
+font-size: 12px;
 padding-left: 15px;
 color: #ababab;
 margin: 13px 0px 0;
