@@ -1,9 +1,11 @@
   .web_view {
-    margin-top: 80px;
+    margin-top: 100px;
   }
   .web_view h3 {
     color: #555;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    float: left;
+    margin: 0;
   }
   table { 
     /* border-collapse: collapse;  */
@@ -228,3 +230,84 @@ color: #555;
   position: relative;
   margin-right: 6px;
 }
+
+
+
+/*-----Header-----*/
+
+.navbar-inverse {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: 5px 2px 5px #dedede;
+  border-radius: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.navbar-header img {
+  padding: 7px 22px;
+  margin-top: 4px;
+}
+.navbar-inverse .navbar-nav>li>a {
+  padding: 12px 17px;
+}
+.navbar-right li img {
+  width: 38px;
+}
+.navbar-right li {
+padding: 12px 17px;
+}
+.navbar-inverse .navbar-nav li a:focus, 
+.navbar-inverse .navbar-nav li a:hover,
+.navbar-inverse .navbar-nav li a:active {
+  color: #3f6aec;
+  border-bottom:2px solid #3f6aec;
+
+}
+.active {
+  color: #3f6aec;
+  border-bottom:2px solid #3f6aec;
+}
+.navbar-center {
+  margin-top: 10px;
+}
+.navbar-center li a {
+  padding: 15px 17px !important;
+}
+.nav-tabs>li>a:hover {
+background: none;
+
+}
+#tab1,
+#tab2 {
+border-bottom: 0 !important;
+}
+.nav-tabs {
+float: left;
+margin-top: 10px;
+border: none;
+}
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover {
+color: #337ab7;
+border: none;
+}
+.nav-tabs>li {
+  padding-bottom: 10px;
+}
+.nav-tabs>li:hover {
+  padding-bottom: 10px;
+}
+.nav-tabs li a {
+color: #555555;
+border: none;
+font-size: 15px;
+}
+.nav-tabs>li>a:hover {
+  border-color: #ffffff;
+  /* border-bottom: 2px solid #3f6aec; */
+  color: #3f6aec;
+  
+}
+

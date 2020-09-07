@@ -1,103 +1,140 @@
-  <div class="container-fluid web_view">
-    <h3>My Patients</h3>
-  <input id="myInput" type="text" placeholder="Search" class="search">
+<div class="full_view">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header logo col-md-5 col-sm-4">
+      <img class="navbar-brand" src="assets/vista-name-right.svg">
+    </div>
 
- <div class="clearfix"></div>
-  <hr>
-    <table> 
-      <tr>
-        <th style="border-radius: 5px 0 0 5px;">Name</th>
-        <th>Phone Number</th>
-        <th>Email ID</th>
-        <th>Age</th>
-        <th style="border-radius: 0px 5px 5px 0px;">Last Appointment</th>
-      </tr>
-    </table> 
-    <table id="myTable" class ="gfg"> 
-      <tr data-toggle="modal" data-target="#myModal1">
-        <td class="geeks">Aishwaraya rajesh</td>      
-        <td>0944366810</td>
-        <td>coleadam@gmail.com</td>
-        <td>26</td>
-        <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
-      </tr>
-      <tr>
-        <td class="geeks">Raghu Ram</td>      
-        <td>9855658455</td>
-        <td>coleadam@gmail.com</td>
-        <td>26</td>
-        <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
-      </tr>
-      <tr>
-        <td class="geeks">Ramakrishna</td>      
-        <td>6584789256</td>
-        <td>coleadam@gmail.com</td>
-        <td>26</td>
-        <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
-      </tr>
-      <tr>
-        <td class="geeks">Sahithi Netadibilli</td>      
-        <td>956823655</td>
-        <td>coleadam@gmail.com</td>
-        <td>26</td>
-        <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
-      </tr>
-      <tr>
-        <td class="geeks">Sailaja Naidu</td>      
-        <td>9584551355</td>
-        <td>coleadam@gmail.com</td>
-        <td>26</td>
-        <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
-      </tr>
-      <tr>
-        <td class="geeks">Santhosh</td>      
-        <td>9887623458</td>
-        <td>coleadam@gmail.com</td>
-        <td>26</td>
-        <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
-      </tr>
-      <tr>
-        <td class="geeks">Raghu Ram</td>      
-        <td>9855658455</td>
-        <td>coleadam@gmail.com</td>
-        <td>26</td>
-        <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
-      </tr>
-      <tr>
-        <td class="geeks">Ramakrishna</td>      
-        <td>6584789256</td>
-        <td>coleadam@gmail.com</td>
-        <td>26</td>
-        <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
-      </tr>
-      <tr>
-        <td class="geeks">Sahithi Netadibilli</td>      
-        <td>956823655</td>
-        <td>coleadam@gmail.com</td>
-        <td>26</td>
-        <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
-      </tr>
-      <tr>
-        <td class="geeks">Sailaja Naidu</td>      
-        <td>9584551355</td>
-        <td>coleadam@gmail.com</td>
-        <td>26</td>
-        <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
-      </tr>
-      <tr>
-        <td class="geeks">Santhosh</td>      
-        <td>9887623458</td>
-        <td>coleadam@gmail.com</td>
-        <td>26</td>
-        <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
-      </tr>
-    </table> 
+    <div class="head_nav">
+
+      <ul class="nav nav-tabs" id="tab_menu">
+        <li><a data-toggle="tab" href="#tab1">My Appointments</a></li>
+        <li class="active"><a data-toggle="tab" href="#tab2">My Patients</a></li>
+      </ul> 
+    </div>
+
+    <ul class="nav navbar-nav navbar-right logo_right">
+      <li><img src="assets/doctor-image.jpg"></li>
+    </ul>
   </div>
+</nav>
+<!-- <div class="clearfix"></div> -->
 
-  <div class="mobile_view" style="display: none;">
+<div class="tab-content">
+  <div id="tab1" class="tab-pane fade">
+    
+  </div>
+  <div id="tab2" class="tab-pane fade in active">
+    <div class="container-fluid web_view">
+      <h3>My Patients</h3>
+    <input id="myInput" type="text" placeholder="Search" class="search">
+    
+    <div class="clearfix"></div>
+    <hr>
+      <table> 
+        <tr>
+          <th style="border-radius: 5px 0 0 5px;">Name</th>
+          <th>Phone Number</th>
+          <th>Email ID</th>
+          <th>Age</th>
+          <th style="border-radius: 0px 5px 5px 0px;">Last Appointment</th>
+        </tr>
+      </table> 
+      <table id="myTable" class ="gfg"> 
+        <tr data-toggle="modal" data-target="#myModal1">
+          <td class="geeks">Aishwaraya rajesh</td>      
+          <td>0944366810</td>
+          <td>coleadam@gmail.com</td>
+          <td>26</td>
+          <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
+        </tr>
+        <tr>
+          <td class="geeks">Raghu Ram</td>      
+          <td>9855658455</td>
+          <td>coleadam@gmail.com</td>
+          <td>26</td>
+          <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
+        </tr>
+        <tr>
+          <td class="geeks">Ramakrishna</td>      
+          <td>6584789256</td>
+          <td>coleadam@gmail.com</td>
+          <td>26</td>
+          <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
+        </tr>
+        <tr>
+          <td class="geeks">Sahithi Netadibilli</td>      
+          <td>956823655</td>
+          <td>coleadam@gmail.com</td>
+          <td>26</td>
+          <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
+        </tr>
+        <tr>
+          <td class="geeks">Sailaja Naidu</td>      
+          <td>9584551355</td>
+          <td>coleadam@gmail.com</td>
+          <td>26</td>
+          <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
+        </tr>
+        <tr>
+          <td class="geeks">Santhosh</td>      
+          <td>9887623458</td>
+          <td>coleadam@gmail.com</td>
+          <td>26</td>
+          <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
+        </tr>
+        <tr>
+          <td class="geeks">Raghu Ram</td>      
+          <td>9855658455</td>
+          <td>coleadam@gmail.com</td>
+          <td>26</td>
+          <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
+        </tr>
+        <tr>
+          <td class="geeks">Ramakrishna</td>      
+          <td>6584789256</td>
+          <td>coleadam@gmail.com</td>
+          <td>26</td>
+          <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
+        </tr>
+        <tr>
+          <td class="geeks">Sahithi Netadibilli</td>      
+          <td>956823655</td>
+          <td>coleadam@gmail.com</td>
+          <td>26</td>
+          <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
+        </tr>
+        <tr>
+          <td class="geeks">Sailaja Naidu</td>      
+          <td>9584551355</td>
+          <td>coleadam@gmail.com</td>
+          <td>26</td>
+          <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
+        </tr>
+        <tr>
+          <td class="geeks">Santhosh</td>      
+          <td>9887623458</td>
+          <td>coleadam@gmail.com</td>
+          <td>26</td>
+          <td>Sep 11,2019, <span>11:30pm to 12:00</span></td>      
+        </tr>
+      </table> 
+    </div>
+      
+    
+  </div>
+  
+</div>
+
+
+
+
+  
+
+  <!-- <div class="mobile_view" style="display: none;">
     
     <app-mobile></app-mobile>
-  </div>
+  </div> -->
 
 
 
@@ -165,4 +202,4 @@
 		</div><!-- modal-dialog -->
 	</div>
 
-  
+</div>
